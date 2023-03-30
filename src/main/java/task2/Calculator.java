@@ -8,38 +8,29 @@ public class Calculator {
         this.num1 = num1;
         this.num2 = num2;
     }
+    public Calculator(){}
 
-    MathOperation addition = (x, y) -> x+y;
-    MathOperation subtraction = (x,y) -> x-y;
-    MathOperation multiplication = (x,y) -> x*y;
-    MathOperation division = (x,y) -> x/y;
-
-    public MathOperation getAddition() {
-        doOperation(num1,num2, addition);
-        return addition;
+    public double getAddition(double num1, double num2) {
+        MathOperation addition = (x, y) -> x+y;
+        return addition.operate(num1,num2);
     }
 
-    public MathOperation getSubtraction() {
-        doOperation(num1, num2, subtraction);
-        return subtraction;
+    public double getSubtraction(double num1, double num2) {
+        MathOperation subtraction= (x,y) -> x-y;
+        return subtraction.operate(num1,num2);
     }
 
-    public MathOperation getMultiplication() {
-        doOperation(num1,num2, multiplication);
-        return multiplication;
+    public double getMultiplication(double num1, double num2) {
+        MathOperation multiplication = (x,y) -> x*y;
+        return multiplication.operate(num1,num2);
     }
 
-    public MathOperation getDivision() throws MathErrorException {
+    public float getDivision(double num1,double num2) throws MathErrorException {
         if (num2 == 0){
             String message = "cannot divide by zero";
             throw new MathErrorException(message);
         }
-        return division;
+        MathOperation division = (x,y) -> x/y;
+        return (float) division.operate(num1,num2);
     }
-
-    private static double doOperation(double num1, double num2, MathOperation operation){
-        return operation.operate(num1,num2);
-    }
-
-
 }

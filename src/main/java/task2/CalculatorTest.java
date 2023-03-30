@@ -2,8 +2,8 @@ package task2;
 
 public class CalculatorTest {
     public static void main(String[] args) {
-        Calculator calc = new Calculator(5,0);
+        Calculator calc = new Calculator();
 
-        System.out.println(calc.addition);
+        System.out.println(calc.getAddition(5,5));
     }
 }
