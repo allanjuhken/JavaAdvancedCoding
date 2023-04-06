@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c5bc6e8-5ef9-4c01-83f1-37df18789c6f" name="Changes" comment="Task6 &amp; Task7 added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/task10/LengthFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task10/LongestWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task8/RandomPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task9/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task9/SumOfSquares.java" afterDir="false" />
+    <list default="true" id="7c5bc6e8-5ef9-4c01-83f1-37df18789c6f" name="Changes" comment="Task8 &amp; Task9 &amp; Task10 added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/task11/InvalidInputException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task11/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task11/TaskList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task11/TaskTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -43,23 +42,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Academy/JavaFundamentalsCoding"
+    "last_opened_file_path": "C:/Academy/JavaRemoteEE26/JavaRemoteEE26"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SumOfSquares">
-    <configuration name="CompanyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task7.CompanyTest" />
-      <module name="JavaAdvancedCoding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="task7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TaskTest">
     <configuration name="LongestWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task10.LongestWord" />
       <module name="JavaAdvancedCoding" />
@@ -112,13 +98,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TaskTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task11.TaskTest" />
+      <module name="JavaAdvancedCoding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TaskTest" />
         <item itemvalue="Application.SumOfSquares" />
         <item itemvalue="Application.LongestWord" />
         <item itemvalue="Application.RandomPassword" />
         <item itemvalue="Application.ResizeTest" />
-        <item itemvalue="Application.CompanyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +154,13 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1680551273127</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="Task8 &amp; Task9 &amp; Task10 added">
+      <created>1680640867139</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1680640867139</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,6 +179,7 @@
     <MESSAGE value="Task2 &amp; Task3 added" />
     <MESSAGE value="Task4 &amp; Task5 added" />
     <MESSAGE value="Task6 &amp; Task7 added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task6 &amp; Task7 added" />
+    <MESSAGE value="Task8 &amp; Task9 &amp; Task10 added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task8 &amp; Task9 &amp; Task10 added" />
   </component>
 </project>
